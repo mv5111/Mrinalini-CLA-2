@@ -13,8 +13,7 @@ int main()
             min = min < len-i ? min : len-i-1;
             min = min < len-j-1 ? min : len-j-1;
             printf("%d ", n-min);
-        }
-        printf("\n");
+        } printf("\n");
     }
     return 0;
 }
